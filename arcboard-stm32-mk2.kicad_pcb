@@ -20546,6 +20546,224 @@
 			)
 		)
 	)
+	(footprint "kicad-libraries:BUZ-SMD_L11.0-W9.0"
+		(layer "F.Cu")
+		(uuid "cab2a308-6af2-4044-a005-3d09f762a710")
+		(at 78.7 122.493996)
+		(descr "BUZ-SMD_L11.0-W9.0 footprint")
+		(tags "BUZ-SMD_L11.0-W9.0 footprint C9900020429")
+		(property "Reference" "U7"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "e2fba948-9564-4e52-ad8a-de0e93cf57d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "AST1109MLQ"
+			(at 0 6.572009 0)
+			(layer "F.Fab")
+			(uuid "e86e570f-9192-46e6-8479-2d04ac0f579a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/1056289.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60830560-12f9-4252-84c5-b17cb6534f1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6403b01f-2901-4636-b033-7b17fabdec3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900020429"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70aa3b00-94a2-4896-b2b9-6e44df6f3df8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4918de49-e306-4d9e-84ab-03101796ef37")
+		(sheetname "/")
+		(sheetfile "arcboard-stm32-mk2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.588011 -4.445009)
+			(end -5.588011 -1.834163)
+			(stroke
+				(width 0.254001)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e188dc3-9a48-420f-9dd0-e87c7838e9d4")
+		)
+		(fp_line
+			(start -5.588011 -4.445009)
+			(end 5.5 -4.5)
+			(stroke
+				(width 0.254001)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "027ae5eb-d440-469b-bd6f-49d6eb634dc6")
+		)
+		(fp_line
+			(start -5.588011 1.778004)
+			(end -5.588011 4.572009)
+			(stroke
+				(width 0.254001)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b30a2b69-9e27-4781-ac12-62c1fa80b8ad")
+		)
+		(fp_line
+			(start -5.588011 4.572009)
+			(end 5.411989 4.572009)
+			(stroke
+				(width 0.254001)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8bf1cb1d-375e-4789-8a9e-0d9892573fc8")
+		)
+		(fp_line
+			(start 5.461011 1.778004)
+			(end 5.5 4.5)
+			(stroke
+				(width 0.254001)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4d8002e-fcbe-4a49-a692-82855803884e")
+		)
+		(fp_line
+			(start 5.5 -4.5)
+			(end 5.461011 -1.778004)
+			(stroke
+				(width 0.254001)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c189491d-a428-49a5-a445-1231bae8188c")
+		)
+		(fp_circle
+			(center -7.490119 4.5)
+			(end -7.460122 4.5)
+			(stroke
+				(width 0.059995)
+				(type solid)
+			)
+			(fill no)
+			(layer "Rescue")
+			(uuid "894a1d4e-1c9f-4010-9564-cfb54bc41a87")
+		)
+		(fp_poly
+			(pts
+				(xy -5.500025 4.5) (xy -5.500025 -4.500025) (xy 5.5 -4.500025) (xy 5.5 4.5)
+			)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill yes)
+			(layer "Rescue")
+			(uuid "c3752f0c-1804-4f76-9075-69920f14e2b4")
+		)
+		(fp_poly
+			(pts
+				(xy -5.490119 -1) (xy -5.490119 1) (xy -7.490119 1) (xy -7.490119 -1)
+			)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill yes)
+			(layer "Rescue")
+			(uuid "ac33c778-6aa4-45e8-b02e-e120c45da92f")
+		)
+		(fp_poly
+			(pts
+				(xy 7.490119 -1) (xy 7.490119 1) (xy 5.490119 1) (xy 5.490119 -1)
+			)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill yes)
+			(layer "Rescue")
+			(uuid "3876211a-787f-46f9-9129-653202eb35e7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.036005 0)
+			(layer "F.Fab")
+			(uuid "0d5078d4-8691-4f32-9cd9-9679158dea7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -6.500127 0 90)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 132 "VO-")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "55745a53-9fc7-42dc-b859-e62d8d37e1a1")
+		)
+		(pad "2" smd rect
+			(at 6.500127 0 90)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 130 "VO+")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "90d6e2d6-a902-406f-aa3e-9b35e0097897")
+		)
+		(embedded_fonts no)
+		(model "packages3d/BUZ-SMD_L11.0-W9.0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "kicad-libraries:cyboard-logo-10mm"
 		(layer "F.Cu")
 		(uuid "cea67d87-d55a-4052-bc47-06babb15535e")
@@ -25675,22 +25893,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "9b8733c1-b246-4c75-ba73-3d977d44fb60")
-	)
-	(via
-		(at 71.91 123.22)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "9cf7c980-daf2-4d83-9e11-f59fe8e47f9c")
-	)
-	(via
-		(at 74.03 121.67)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "9d910bdf-d478-4046-9a7c-a5311f8dee47")
 	)
 	(via
 		(at 78.31 117.89)
@@ -46099,6 +46301,22 @@
 		(layer "B.Cu")
 		(net 131)
 		(uuid "f147285c-34c3-4ca0-9dc0-23f73405bd65")
+	)
+	(via
+		(at 71.91 123.22)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 132)
+		(uuid "9cf7c980-daf2-4d83-9e11-f59fe8e47f9c")
+	)
+	(via
+		(at 74.03 121.67)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 132)
+		(uuid "9d910bdf-d478-4046-9a7c-a5311f8dee47")
 	)
 	(zone
 		(net 1)

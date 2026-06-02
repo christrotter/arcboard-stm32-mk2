@@ -6958,6 +6958,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad-libraries:AST1109MLQ"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AST1109MLQ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:BUZ-SMD_L11.0-W9.0"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/1056289.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C9900020429"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C9900020429"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AST1109MLQ_0_1"
+				(polyline
+					(pts
+						(xy -4.064 4.064) (xy 0 4.064) (xy 0 -1.524) (xy -4.064 -1.524) (xy -7.62 -5.08) (xy -7.62 7.62)
+						(xy -4.064 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kicad-libraries:CDSQC4148-HF"
 			(pin_numbers
 				(hide yes)
@@ -13310,6 +13433,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 387.35) (xy 283.21 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f31bad5-053e-4b84-b8c9-cdf42dd1da7a")
+	)
+	(wire
+		(pts
 			(xy 45.72 331.47) (xy 55.88 331.47)
 		)
 		(stroke
@@ -13507,6 +13640,16 @@
 			(type default)
 		)
 		(uuid "39d3048b-ed26-4366-a260-1cdf5415c338")
+	)
+	(wire
+		(pts
+			(xy 278.13 384.81) (xy 283.21 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2b1881-f401-4279-8430-99047b2345f5")
 	)
 	(wire
 		(pts
@@ -17937,7 +18080,7 @@
 		)
 	)
 	(global_label "VO-"
-		(shape input)
+		(shape output)
 		(at 322.58 363.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19015,7 +19158,7 @@
 		)
 	)
 	(global_label "VO+"
-		(shape input)
+		(shape output)
 		(at 322.58 358.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19146,6 +19289,28 @@
 			)
 		)
 	)
+	(global_label "VO+"
+		(shape input)
+		(at 283.21 384.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b9fbd51-9247-402c-856d-608ce3b3ce03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.1867 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW0"
 		(shape input)
 		(at 328.93 234.95 180)
@@ -19164,6 +19329,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO-"
+		(shape input)
+		(at 283.21 387.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8043418d-c86b-49bd-aa2e-964c3782df43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.1867 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23785,6 +23972,85 @@
 			(project "arcboard-stm32-mk2"
 				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-libraries:AST1109MLQ")
+		(at 273.05 387.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4918de49-e306-4d9e-84ab-03101796ef37")
+		(property "Reference" "U7"
+			(at 269.24 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AST1109MLQ"
+			(at 269.24 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-libraries:BUZ-SMD_L11.0-W9.0"
+			(at 273.05 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/1056289.html"
+			(at 270.764 387.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9900020429"
+			(at 273.05 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85f1c5ad-e07a-4a03-af4e-fdc7bf9363b7")
+		)
+		(pin "1"
+			(uuid "e730bfa7-cdaf-4eb4-b080-486188c78dc2")
+		)
+		(instances
+			(project ""
+				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
+					(reference "U7")
 					(unit 1)
 				)
 			)
