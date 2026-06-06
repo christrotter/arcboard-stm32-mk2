@@ -11675,7 +11675,7 @@
 		)
 		(uuid "9cc98efc-3a89-427e-9061-f64a823d3e95")
 	)
-	(text "??? TIM3_CH4, TIM8_CH3N, TIM1_CH3N"
+	(text "TIM3_CH4, TIM8_CH3N, TIM1_CH3N"
 		(exclude_from_sim no)
 		(at 379.476 204.47 0)
 		(effects
