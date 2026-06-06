@@ -11602,7 +11602,7 @@
 	)
 	(text "RGB LED power"
 		(exclude_from_sim no)
-		(at 506.984 195.834 0)
+		(at 477.774 246.634 0)
 		(effects
 			(font
 				(face "Futura")
@@ -11707,7 +11707,7 @@
 	)
 	(text "LCD power"
 		(exclude_from_sim no)
-		(at 511.048 150.368 0)
+		(at 541.528 246.888 0)
 		(effects
 			(font
 				(face "Futura")
@@ -11961,10 +11961,10 @@
 		)
 		(uuid "0d766a51-1739-4c4a-a39f-5de3622a8825")
 	)
-	(text_box "P-channel MOSFETs are on when the gate is grounded.\nThe transistor is, by default, doing this.\nSo the normal behaviour is 'always on'.\nOptionally, if you trigger the transistor from GPIO, you can send voltage to the gate, which turns the MOSFET off."
+	(text_box "Another tzarc special - figuring out how he did it helped me understand mosfets and transistors way better.\nP-channel MOSFETs are on when the gate is grounded.\nThe transistor is, by default, doing this.\nSo the normal behaviour is 'always on'.\nOptionally, if you trigger the transistor from GPIO, you can send voltage to the gate, which turns the MOSFET off."
 		(exclude_from_sim no)
-		(at 523.24 176.53 0)
-		(size 49.53 12.7)
+		(at 471.17 226.06 0)
+		(size 107.95 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -12757,6 +12757,10 @@
 		(uuid "033f7e8f-f3ac-48ee-ba4e-72e29fe57ab3")
 	)
 	(no_connect
+		(at 105.41 264.16)
+		(uuid "0ca45a84-5274-4590-87b6-22dd96ea0705")
+	)
+	(no_connect
 		(at 276.86 196.85)
 		(uuid "15b449fa-0cc4-4922-8545-295772233e51")
 	)
@@ -12839,6 +12843,10 @@
 	(no_connect
 		(at 346.71 179.07)
 		(uuid "bc6f212f-4660-40db-9b12-7a906ebee612")
+	)
+	(no_connect
+		(at 105.41 266.7)
+		(uuid "bdc8c2db-3b3a-422d-bff1-eb2bff60353d")
 	)
 	(no_connect
 		(at 477.52 120.65)
@@ -13030,7 +13038,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 171.45) (xy 539.75 168.91)
+			(xy 570.23 267.97) (xy 570.23 265.43)
 		)
 		(stroke
 			(width 0)
@@ -13580,6 +13588,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 266.7) (xy 107.95 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2321c65a-8291-413b-bcfa-87024cdcc030")
+	)
+	(wire
+		(pts
 			(xy 337.82 209.55) (xy 346.71 209.55)
 		)
 		(stroke
@@ -13690,7 +13708,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 218.44) (xy 542.29 215.9)
+			(xy 513.08 269.24) (xy 513.08 266.7)
 		)
 		(stroke
 			(width 0)
@@ -14040,7 +14058,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 171.45) (xy 505.46 171.45)
+			(xy 532.13 267.97) (xy 535.94 267.97)
 		)
 		(stroke
 			(width 0)
@@ -14230,7 +14248,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 209.55) (xy 518.16 209.55)
+			(xy 499.11 260.35) (xy 488.95 260.35)
 		)
 		(stroke
 			(width 0)
@@ -14770,7 +14788,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 153.67) (xy 533.4 157.48)
+			(xy 563.88 250.19) (xy 563.88 254)
 		)
 		(stroke
 			(width 0)
@@ -14920,7 +14938,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 209.55) (xy 518.16 213.36)
+			(xy 488.95 260.35) (xy 488.95 264.16)
 		)
 		(stroke
 			(width 0)
@@ -15080,7 +15098,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 167.64) (xy 533.4 171.45)
+			(xy 563.88 264.16) (xy 563.88 267.97)
 		)
 		(stroke
 			(width 0)
@@ -15230,6 +15248,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 264.16) (xy 107.95 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745e3b88-83e2-486c-bad9-0ed83ec2c6fc")
+	)
+	(wire
+		(pts
 			(xy 170.18 92.71) (xy 189.23 92.71)
 		)
 		(stroke
@@ -15280,7 +15308,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 153.67) (xy 533.4 153.67)
+			(xy 568.96 250.19) (xy 563.88 250.19)
 		)
 		(stroke
 			(width 0)
@@ -15370,7 +15398,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 218.44) (xy 508 218.44)
+			(xy 474.98 269.24) (xy 478.79 269.24)
 		)
 		(stroke
 			(width 0)
@@ -15570,7 +15598,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 162.56) (xy 515.62 162.56)
+			(xy 556.26 259.08) (xy 546.1 259.08)
 		)
 		(stroke
 			(width 0)
@@ -15640,7 +15668,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 218.44) (xy 542.29 218.44)
+			(xy 506.73 269.24) (xy 513.08 269.24)
 		)
 		(stroke
 			(width 0)
@@ -15680,7 +15708,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 226.06) (xy 518.16 228.6)
+			(xy 488.95 276.86) (xy 488.95 279.4)
 		)
 		(stroke
 			(width 0)
@@ -15720,7 +15748,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 200.66) (xy 535.94 204.47)
+			(xy 506.73 251.46) (xy 506.73 255.27)
 		)
 		(stroke
 			(width 0)
@@ -16250,7 +16278,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 214.63) (xy 535.94 218.44)
+			(xy 506.73 265.43) (xy 506.73 269.24)
 		)
 		(stroke
 			(width 0)
@@ -16290,7 +16318,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 179.07) (xy 515.62 181.61)
+			(xy 546.1 275.59) (xy 546.1 278.13)
 		)
 		(stroke
 			(width 0)
@@ -16770,7 +16798,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 200.66) (xy 535.94 200.66)
+			(xy 511.81 251.46) (xy 506.73 251.46)
 		)
 		(stroke
 			(width 0)
@@ -17020,7 +17048,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 171.45) (xy 539.75 171.45)
+			(xy 563.88 267.97) (xy 570.23 267.97)
 		)
 		(stroke
 			(width 0)
@@ -17790,7 +17818,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 162.56) (xy 515.62 166.37)
+			(xy 546.1 259.08) (xy 546.1 262.89)
 		)
 		(stroke
 			(width 0)
@@ -18686,7 +18714,7 @@
 	)
 	(global_label "RGB_5V"
 		(shape output)
-		(at 541.02 200.66 0)
+		(at 511.81 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18696,7 +18724,7 @@
 		)
 		(uuid "1da00905-7278-4838-82ae-2b07abbed995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 551.0809 200.66 0)
+			(at 521.8709 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18840,7 +18868,7 @@
 	)
 	(global_label "LCD_3V3"
 		(shape output)
-		(at 538.48 153.67 0)
+		(at 568.96 250.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18850,7 +18878,7 @@
 		)
 		(uuid "299f1f9b-a0d3-4fc5-a19d-636fe9aefb92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 549.5085 153.67 0)
+			(at 579.9885 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,7 +19440,7 @@
 	)
 	(global_label "RGB_ON"
 		(shape input)
-		(at 504.19 218.44 180)
+		(at 474.98 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19422,7 +19450,7 @@
 		)
 		(uuid "5eb70b44-5b64-4136-832d-1e7232702177")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 493.7662 218.44 0)
+			(at 464.5562 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21480,7 +21508,7 @@
 	)
 	(global_label "LCD_ON"
 		(shape input)
-		(at 501.65 171.45 180)
+		(at 532.13 267.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21490,7 +21518,7 @@
 		)
 		(uuid "fbe614c3-44a7-42db-8b90-31dd02cdd505")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 491.4681 171.45 0)
+			(at 521.9481 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24137,7 +24165,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 539.75 168.91 0)
+		(at 570.23 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24145,7 +24173,7 @@
 		(dnp no)
 		(uuid "3350091d-e084-4eba-becc-3c82f754537c")
 		(property "Reference" "#PWR047"
-			(at 539.75 172.72 0)
+			(at 570.23 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24154,7 +24182,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 540.512 167.386 0)
+			(at 570.992 263.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24163,7 +24191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 539.75 168.91 0)
+			(at 570.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24172,7 +24200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 539.75 168.91 0)
+			(at 570.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24181,7 +24209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 539.75 168.91 0)
+			(at 570.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24401,7 +24429,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 515.62 181.61 0)
+		(at 546.1 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24410,7 +24438,7 @@
 		(fields_autoplaced yes)
 		(uuid "422ed5c3-6f56-4259-8889-e3fc4cf599ab")
 		(property "Reference" "#PWR048"
-			(at 515.62 187.96 0)
+			(at 546.1 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24419,7 +24447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 515.62 186.69 0)
+			(at 546.1 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24427,7 +24455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515.62 181.61 0)
+			(at 546.1 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24436,7 +24464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515.62 181.61 0)
+			(at 546.1 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24445,7 +24473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 515.62 181.61 0)
+			(at 546.1 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25667,7 +25695,7 @@
 	(symbol
 		(lib_name "+5V_4")
 		(lib_id "power:+5V")
-		(at 542.29 215.9 0)
+		(at 513.08 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25676,7 +25704,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ce283cf-e36a-4c7e-870e-2ba937c0c939")
 		(property "Reference" "#PWR050"
-			(at 542.29 219.71 0)
+			(at 513.08 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25685,7 +25713,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 544.83 214.6299 0)
+			(at 515.62 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25694,7 +25722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 542.29 215.9 0)
+			(at 513.08 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25703,7 +25731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 215.9 0)
+			(at 513.08 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25712,7 +25740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 542.29 215.9 0)
+			(at 513.08 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27237,7 +27265,7 @@
 	)
 	(symbol
 		(lib_id "kicad-libraries:MMUN2233LT1G")
-		(at 510.54 172.72 0)
+		(at 541.02 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27246,7 +27274,7 @@
 		(fields_autoplaced yes)
 		(uuid "8756c128-79f1-4015-b432-d21c6353c597")
 		(property "Reference" "U9"
-			(at 516.89 171.5451 0)
+			(at 547.37 268.0651 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27255,7 +27283,7 @@
 			)
 		)
 		(property "Value" "MMUN2233LT1G"
-			(at 516.89 174.0851 0)
+			(at 547.37 270.6051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27264,7 +27292,7 @@
 			)
 		)
 		(property "Footprint" "kicad-libraries:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 510.54 182.88 0)
+			(at 541.02 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27274,7 +27302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Package-Files/SOT23.pdf"
-			(at 508.254 172.593 0)
+			(at 538.734 269.113 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27284,7 +27312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 172.72 0)
+			(at 541.02 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27293,7 +27321,7 @@
 			)
 		)
 		(property "LCSC" "C86932"
-			(at 510.54 172.72 0)
+			(at 541.02 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29231,7 +29259,7 @@
 	)
 	(symbol
 		(lib_id "kicad-libraries:AO3401A")
-		(at 533.4 209.55 0)
+		(at 504.19 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29240,7 +29268,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab17bcbd-d2cf-4ac8-ac4c-3d41a177e2b1")
 		(property "Reference" "MOSFET4"
-			(at 541.02 208.2799 0)
+			(at 511.81 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29249,7 +29277,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 541.02 210.8199 0)
+			(at 511.81 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29258,7 +29286,7 @@
 			)
 		)
 		(property "Footprint" "kicad-libraries:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 533.4 219.71 0)
+			(at 504.19 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29268,7 +29296,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/236142.html"
-			(at 531.114 209.423 0)
+			(at 501.904 260.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29278,7 +29306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 533.4 209.55 0)
+			(at 504.19 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29287,7 +29315,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 533.4 209.55 0)
+			(at 504.19 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29553,7 +29581,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 518.16 228.6 0)
+		(at 488.95 279.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29562,7 +29590,7 @@
 		(fields_autoplaced yes)
 		(uuid "adb13d70-0e61-4c7c-8b90-f7359e7cefd5")
 		(property "Reference" "#PWR049"
-			(at 518.16 234.95 0)
+			(at 488.95 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29571,7 +29599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 518.16 233.68 0)
+			(at 488.95 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29579,7 +29607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 518.16 228.6 0)
+			(at 488.95 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29588,7 +29616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 518.16 228.6 0)
+			(at 488.95 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29597,7 +29625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 518.16 228.6 0)
+			(at 488.95 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30549,7 +30577,7 @@
 	)
 	(symbol
 		(lib_id "kicad-libraries:MMUN2233LT1G")
-		(at 513.08 219.71 0)
+		(at 483.87 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30558,7 +30586,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5472ca7-7f46-4b70-919a-f83bbd0988d2")
 		(property "Reference" "U10"
-			(at 519.43 218.5351 0)
+			(at 490.22 269.3351 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30567,7 +30595,7 @@
 			)
 		)
 		(property "Value" "MMUN2233LT1G"
-			(at 519.43 221.0751 0)
+			(at 490.22 271.8751 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30576,7 +30604,7 @@
 			)
 		)
 		(property "Footprint" "kicad-libraries:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 513.08 229.87 0)
+			(at 483.87 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30586,7 +30614,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Package-Files/SOT23.pdf"
-			(at 510.794 219.583 0)
+			(at 481.584 270.383 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30596,7 +30624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 513.08 219.71 0)
+			(at 483.87 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30605,7 +30633,7 @@
 			)
 		)
 		(property "LCSC" "C86932"
-			(at 513.08 219.71 0)
+			(at 483.87 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30933,7 +30961,7 @@
 	)
 	(symbol
 		(lib_id "kicad-libraries:AO3401A")
-		(at 530.86 162.56 0)
+		(at 561.34 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30942,7 +30970,7 @@
 		(fields_autoplaced yes)
 		(uuid "caeb9e18-803c-43b9-b9ca-a3f26b5380ee")
 		(property "Reference" "MOSFET3"
-			(at 538.48 161.2899 0)
+			(at 568.96 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30951,7 +30979,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 538.48 163.8299 0)
+			(at 568.96 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30960,7 +30988,7 @@
 			)
 		)
 		(property "Footprint" "kicad-libraries:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 530.86 172.72 0)
+			(at 561.34 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30970,7 +30998,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/236142.html"
-			(at 528.574 162.433 0)
+			(at 559.054 258.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30980,7 +31008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 530.86 162.56 0)
+			(at 561.34 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30989,7 +31017,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 530.86 162.56 0)
+			(at 561.34 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
