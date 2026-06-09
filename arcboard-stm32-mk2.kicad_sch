@@ -5791,7 +5791,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kicad-libraries:0402WGF2201TCE"
+		(symbol "kicad-libraries:0402WGF4701TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5809,7 +5809,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF2201TCE"
+			(property "Value" "0402WGF4701TCE"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5846,7 +5846,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25879"
+			(property "LCSC" "C25900"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5855,7 +5855,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "C25879"
+			(property "ki_keywords" "C25900"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5864,7 +5864,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0402WGF2201TCE_0_1"
+			(symbol "0402WGF4701TCE_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -29284,6 +29284,87 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad-libraries:0402WGF4701TCE")
+		(at 53.34 350.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa921b0c-751c-49bc-8f8d-ff3064640c49")
+		(property "Reference" "R4"
+			(at 55.88 349.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF4701TCE"
+			(at 55.88 351.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kicad-libraries:R0402"
+			(at 63.5 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/323315.html"
+			(at 53.213 352.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 53.34 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9723b69a-767a-402e-a214-24ccdef84c33")
+		)
+		(pin "1"
+			(uuid "8cc023fc-30c6-4758-ad23-9acfd92b9a17")
+		)
+		(instances
+			(project "arcboard-stm32-mk2"
+				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad-libraries:AO3401A")
 		(at 504.19 260.35 0)
 		(unit 1)
@@ -29936,87 +30017,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad-libraries:0402WGF2201TCE")
-		(at 48.26 350.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b43cab73-01c3-4b48-8d57-0f7ee67ea42e")
-		(property "Reference" "R13"
-			(at 50.8 349.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF2201TCE"
-			(at 50.8 351.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kicad-libraries:R0402"
-			(at 58.42 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/323315.html"
-			(at 48.133 352.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25879"
-			(at 48.26 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26ccd1f7-c93c-4427-9f37-78870bdcc1b5")
-		)
-		(pin "1"
-			(uuid "21f8e213-cc30-4e25-b6e8-e300394e12e2")
-		)
-		(instances
-			(project ""
-				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad-libraries:CL10A106MA8NRNC")
 		(at 519.43 63.5 270)
 		(unit 1)
@@ -30454,6 +30454,87 @@
 			(project "arcboard-stm32-mk2"
 				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-libraries:0402WGF4701TCE")
+		(at 48.26 350.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3898bab-507a-47af-95d0-17d955ef9bc2")
+		(property "Reference" "R7"
+			(at 50.8 349.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402WGF4701TCE"
+			(at 50.8 351.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kicad-libraries:R0402"
+			(at 58.42 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/323315.html"
+			(at 48.133 352.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 48.26 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc70573e-6f73-4da4-baf3-dab1e216c0b2")
+		)
+		(pin "1"
+			(uuid "4de729fc-b679-4bbf-86ca-c74131604a86")
+		)
+		(instances
+			(project ""
+				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -32813,87 +32894,6 @@
 			(project "arcboard-stm32-mk2"
 				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad-libraries:0402WGF2201TCE")
-		(at 53.34 350.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f24cf35f-56c3-47ce-a3ed-8bfcb748d920")
-		(property "Reference" "R4"
-			(at 55.88 349.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0402WGF2201TCE"
-			(at 55.88 351.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kicad-libraries:R0402"
-			(at 63.5 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/323315.html"
-			(at 53.213 352.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25879"
-			(at 53.34 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c261c3c8-c59b-417b-bbeb-d17dd7184375")
-		)
-		(pin "1"
-			(uuid "1f279f69-6359-478c-9cd3-8bbc73c8b703")
-		)
-		(instances
-			(project "arcboard-stm32-mk2"
-				(path "/e3b5a64c-dc86-4c04-b1b0-762b30a6a8fe"
-					(reference "R4")
 					(unit 1)
 				)
 			)
